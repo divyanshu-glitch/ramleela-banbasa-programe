@@ -1,0 +1,32 @@
+ramleela-banbasa-cms/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── index.html
+├── README.md
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    ├── types/
+    │   └── index.ts
+    ├── data/
+    │   ├── seedCharacters.ts
+    │   └── i18n.ts
+    ├── db/
+    │   └── indexedDb.ts
+    ├── utils/
+    │   ├── calculations.ts
+    │   └── excelExport.ts
+    ├── context/
+    │   └── AppContext.tsx
+    ├── components/
+    │   ├── TopWindowBar.tsx
+    │   ├── StartupDialogs.tsx
+    │   ├── Dashboard.tsx
+    │   ├── EntryWizard.tsx
+    │   ├── TransactionsPage.tsx
+    │   ├── ReportsPage.tsx
+    │   └── SettingsPage.tsx
+    └── tests/
+        └── calculations.test.ts
